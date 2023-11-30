@@ -121,14 +121,14 @@ Cần xử lý để các giá trị đạt gần phân phối chuẩn nhất b�
   
 4. Đánh giá mô hình
 
-    - Xử dụng Smote để xử lý vẫn đề imbalance các lớp trong target Interest_Rate. \
-    - Thông qua recall, Vấn đề imbalance đã được cải thiện tốt. \
+    - Xử dụng Smote để xử lý vẫn đề imbalance các lớp trong target Interest_Rate. 
+    - Thông qua recall, Vấn đề imbalance đã được cải thiện tốt. 
 
     - Các mô hình như RandomForest, Logistic, DecisionTree, NaiveBayes đều Underfiting với accuracy thấp mức 50%. Tình trạng imbalance cao mặc dù đã dùng SMOTE. 
     - Trong đó NaiveBayes tuy đạt giá trị thấp nhưng các giá trị trong recall đề gần bằng nhau. Điều này cho thấy NaiveBayes xử lý tương đối tốt khi dữ liệu imbalance.
 
 5. Kết luận 
-    - Quá trình xử lý dữ liệu đã hạn chế mất mát thông tin nhất có thể. \
+    - Quá trình xử lý dữ liệu đã hạn chế mất mát thông tin nhất có thể. 
     - Xử lý bộ dữ liệu đạt phân phối gần đạt chuẩn
-    - Chưa thử nghiệm đánh giá và so sánh các kỹ thuật như PCA, Polynomial transform, Grid SearchCV, ...\
+    - Chưa thử nghiệm đánh giá và so sánh các kỹ thuật như PCA, Polynomial transform, Grid SearchCV, ...
     - Đối với mô hình SVM, chi phí thực hiện lớn nên chưa có kết quả thử nghiệm.
