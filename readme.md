@@ -41,7 +41,7 @@ Thông tin của người vay.
 Gender: Giới tính.
 Interest_Rate: Mức lãi suất của khoản vay.
 
-![Alt text](image.png)
+![Alt text](image/image.png)
 
 2. Khám phá Dữ liệu (Data Exploration)
 
@@ -59,35 +59,35 @@ Cần xử lý để các giá trị đạt gần phân phối chuẩn nhất b�
 
     a. Xuất các thông tin heatmap 
 
-   ![Alt text](image-1.png)
+   ![Alt text](image/image1.png)
 
     b. Tiền xử lý Dữ liệu (Data Preprocessing)
 
       - Xử lý missing value 
 
-    ![Alt text](image-2.png)
+    ![Alt text](image/image2.png)
 
     c. Chọn các features bằng phương pháp lightgbm
 
-    ![Alt text](image-3.png)
+    ![Alt text](image/image3image3.png)
 
         - Các đồ thị thống kê 
-    ![Alt text](image-4.png)
+    ![Alt text](image/image4.png)
 
         - Xử lý outliers
-    ![Alt text](image-5.png)
+    ![Alt text](image/image5.png)
 
     - Với phương pháp IsolationForest
 
-    ![Alt text](image-6.png)
+    ![Alt text](image/image6.png)
 
     - Kiểm tra phân phối 
 
-    ![Alt text](image-7.png)
+    ![Alt text](image/image7.png)
 
     d. Trực quan với Power Bi
 
-![Alt text](image-8.png)
+![Alt text](image/image8.png)
 
 3. Xây dựng mô hình
 
@@ -97,11 +97,11 @@ Cần xử lý để các giá trị đạt gần phân phối chuẩn nhất b�
 
     a. Đối với tập train
 
-    ![Alt text](image-10.png)
+    ![Alt text](image/image10.png)
 
     b. Đối với tập test
 
-    ![Alt text](image-9.png)
+    ![Alt text](image/image9.png)
 
 - Nhận thấy giá trị dự đoán ở cả 2 tập train và test đều khá tương đồng nhau
 
@@ -109,11 +109,11 @@ Cần xử lý để các giá trị đạt gần phân phối chuẩn nhất b�
 
     a. Đối với tập train của SVM
 
-    ![Alt text](image-12.png)
+    ![Alt text](image/image12.png)
   
     b. Đối với tập test của SVM
     
-    ![Alt text](image-11.png)
+    ![Alt text](image/image11.png)
   
 - Mô hình dự đoán tốt hơn
 
