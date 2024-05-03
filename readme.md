@@ -2,15 +2,7 @@
 ---
 **Introduction to Machine Learning**
 
-**Request:**
-Description churn_rate_prediction.csv
-- Apply all knowledge and techniques that you have learned for this
-- You must organize your notebook based on the Homework
-- Should not drop NA and missing value
-Deadline:
-- 3 weeks - (2023-06-25)
-
-Data 2 (MLP -> Final)
+**Request:** (MLP -> Final)
 Description Banking.csv
 - Apply all knowledge and techniques that you have learned for this
 - You must organize your notebook based on the Homework
